@@ -1,0 +1,23 @@
+{
+  "name": "spheres",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "best --behaviors '../spheres/behaviors/**/*.behavior.ts'"
+  },
+  "dependencies": {
+    "spheres": "^0.10.0"
+  },
+  "devDependencies": {
+    "best-behavior": "^0.8.1",
+    "esbehavior": "^4.2.3",
+    "great-expectations": "^1.5.2",
+    "playwright": "^1.47.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.4"
+  }
+}
